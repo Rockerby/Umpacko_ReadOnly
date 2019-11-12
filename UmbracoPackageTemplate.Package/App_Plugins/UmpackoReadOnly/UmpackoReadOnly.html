@@ -1,0 +1,4 @@
+﻿<div ng-controller="umpackoReadOnlyController as vm" class="umb-property-editor">
+    <input type="text" ng-model="model.value" ng-show="vm.editable" class="umb-property-editor umb-textstring textstring" />
+    <p ng-show="!vm.editable">{{model.value}}</p>
+</div>

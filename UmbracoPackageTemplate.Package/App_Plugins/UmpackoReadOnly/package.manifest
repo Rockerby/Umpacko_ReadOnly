@@ -1,0 +1,14 @@
+{
+    propertyEditors: [{
+        alias: 'UmpackoReadOnly',
+        name: 'Read Only',
+        icon: 'icon-readonly',
+        group: 'common',
+        editor: {
+            view: '~/App_Plugins/UmpackoReadOnly/UmpackoReadOnly.html'
+        }
+    }],
+    javascript: [
+        '~/App_Plugins/UmpackoReadOnly/js/UmpackoReadOnly.controller.js'
+    ]
+}
