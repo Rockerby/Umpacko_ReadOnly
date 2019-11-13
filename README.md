@@ -1,15 +1,7 @@
-# Umbraco Package Template
+# Umpacko Read Only
 
-This simple project is a starter template to create packages for Umbraco (currently setup for 8.2.2).
+Have you ever wanted to set a value when you first create content but don't want it changed afterwards? This simple property editor gives a text input when you add the content but then becomes uneditable post-save. 
 
 **admin email** admin@umpacko.com
+
 **admin pass** passwordpassword
-
-### UmbracoPackageTemplate.Web
-
-This project contains the Umbraco instance that is used to test the package. There is a post-build event that copies the content of the UmbracoPackageTemplate.Package project into this project.
-
-### UmbracoPackageTemplate.Package
-
-This contains the actual code for the package. Having it here allows for easier packaging up to ship out the package.
-
